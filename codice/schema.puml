@@ -1,0 +1,34 @@
+@startuml
+abstract class progetto.Subject
+annotation java.lang.Override
+class java.util.ArrayList
+class progetto.BerlinaOptional
+class progetto.BerlinaStandard
+class progetto.Concessionario
+class progetto.FactoryOptional
+class progetto.FactoryStandard
+class progetto.Progetto
+class progetto.SceltaCliente
+class progetto.SuvOptional
+class progetto.SuvStandard
+interface progetto.AbstractFactory
+interface progetto.Berlina
+interface progetto.Observer
+interface progetto.Suv
+progetto.Subject ..> java.util.ArrayList
+progetto.BerlinaOptional ..> java.lang.Override
+progetto.BerlinaOptional --|> progetto.Berlina
+progetto.BerlinaStandard ..> java.lang.Override
+progetto.BerlinaStandard --|> progetto.Berlina
+progetto.Concessionario --|> progetto.Subject
+progetto.FactoryOptional ..> java.lang.Override
+progetto.FactoryOptional --|> progetto.AbstractFactory
+progetto.FactoryStandard ..> java.lang.Override
+progetto.FactoryStandard --|> progetto.AbstractFactory
+progetto.SceltaCliente ..> java.lang.Override
+progetto.SceltaCliente --|> progetto.Observer
+progetto.SuvOptional ..> java.lang.Override
+progetto.SuvOptional --|> progetto.Suv
+progetto.SuvStandard ..> java.lang.Override
+progetto.SuvStandard --|> progetto.Suv
+@enduml
