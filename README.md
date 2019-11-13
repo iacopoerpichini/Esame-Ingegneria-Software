@@ -1,4 +1,4 @@
-# Esame-Ingegneria-Software
+# Ing Software composizione di due design pattern
 Composizione di due design pattern studiati
 
 Elaborato per esame dettagli in [relazione](https://github.com/iacopoerpichini/Esame-Ingegneria-Software/blob/master/Progetto.pdf)
